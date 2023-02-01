@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.eclipse{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 60px;
+    top: 70px;
+    text-align: center;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+
+    background: #007CED;
+    font-family: 'Ribeye';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    border-radius: 50%;
+}
+.name{
+    position: absolute;
+    width: 164px;
+    height: 45px;
+    left: 123px;
+    top: 35px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+    margin-top: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.main-box{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.devops-img{
+    width: 90%;
+    height: 45vh;
+    border-radius: 50%;
+}
+.group1{
+    display: flex;
+}
+.group2{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+.box3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.box4{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.box5{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.button1{
+    width: 127px;
+    height: 32px;
+    border-radius: 75px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+.button2{
+    width: 127px;
+    height: 32px;
+    border-radius: 75px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+.button1:hover{
+    background-color: black;
+    color: #FFFFFF;
+    transition: 0.9s;
+}
+.button2:hover{
+    background-color: black;
+    color: #FFFFFF;
+    transition: 0.9s;
+}
+#switch{
+   margin-left: 90%;
+}
+
+
+@media screen and (max-width:850px) {
+    
+    
+        
+}
